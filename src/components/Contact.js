@@ -36,29 +36,27 @@ export default function Contact() {
 						marginHeight={0}
 						marginWidth={0}
 						style={{ filter: "opacity(0.7)" }}
-						src='https://www.google.com/maps/embed/v1/place?q=97+warren+st+new+york+city&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8'
+						src='https://www.google.com/maps/embed/v1/place?q=Los+Angeles,+CA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8'
 					/>
 					<div>
 						<div>
 							<h2>ADDRESS</h2>
 							<p>
-								97 Warren St. <br />
-								New York, NY 10007
+								Los Angeles, CA								
 							</p>
 						</div>
 						<div>
 							<h2>EMAIL</h2>
-							<a>reedbarger@email.com</a>
+							<p>hasanrizvi1993@gmail.com</p>
 							<h2>PHONE</h2>
-							<p>123-456-7890</p>
+							<p>(951)518-4719</p>
 						</div>
 					</div>
 				</div>
 				<form netlify name='contact' onSubmit={handleSubmit}>
 					<h2>Hire Me</h2>
 					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-						suscipit officia aspernatur veritatis. Asperiores, aliquid?
+						Need help of an amazing developer?
 					</p>
 					<div>
 						<label htmlFor='name'>Name</label>

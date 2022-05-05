@@ -1,41 +1,34 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Tamagotchi from "../../src/tamagotchi.png";
-import Movie from "../../src/movie.png";
 import Weather from "../../src/weather.png";
+import Mybnb from "../../src/bnb.png"
 
-import { useState } from "react";
-import { render } from "@testing-library/react";
 
 function Tools() {
 	return (
-		<div>
+		<div className="carousel">
 			<Carousel fade>
 				<Carousel.Item>
-					<img className='d-block w-100' src={Weather} alt='Third slide' />
+					<img className='d-block w-100' src={Weather} alt='Third slide' height="600" width="20"/>
 
 					<Carousel.Caption>
 						<h3>Weather</h3>
-						<p>
-							Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-						</p>
 					</Carousel.Caption>
 				</Carousel.Item>
 
 				<Carousel.Item>
-					<img className='d-block w-100' src={Movie} alt='Second slide' />
+					<img className='d-block w-100' src={Mybnb} alt='Second slide' height="600" width="20"/>
 
 					<Carousel.Caption>
 						<h3>Movies</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</Carousel.Caption>
 				</Carousel.Item>
 
 				<Carousel.Item>
-					<img className='d-block w-100' src={Tamagotchi} alt='First slide' />
+					<img className='d-block w-100' src={Tamagotchi} alt='First slide' height="600" width="20"/>
 					<Carousel.Caption>
 						<h3>Tamagotchi</h3>
-						<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 					</Carousel.Caption>
 				</Carousel.Item>
 			</Carousel>

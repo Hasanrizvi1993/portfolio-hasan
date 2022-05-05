@@ -8,22 +8,30 @@ export default function Projects() {
 				<div>
 					<h1>Apps I've Built</h1>
 					<p>
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-						facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-						fuga dolore.
+						I have built web apps using technologies including React, NodeJS,
+						Python, Django, Express, EJS, HTML, CSS, Materialize, Bootstrap,
+						Javascript, and MongoDB.
 					</p>
 				</div>
-				<div>
+				<div className='projects'>
 					{projects.map((project) => (
 						<a href={project.link} key={project.image}>
-							<div>
-								<img alt='gallery' src={project.image} />
-								<div>
-									<h2>{project.subtitle}</h2>
+
+								<div className="projectinfo">
+								<img
+									alt='gallery'
+									className='picturegallery'
+									src={project.image}
+								/>
 									<h1>{project.title}</h1>
-									<p>{project.description}</p>
+									<h4>{project.subtitle}</h4>
+									<p>{project.link}</p>
+									<br></br>
+									<br></br>
+									<br></br>
+									<hr></hr>
 								</div>
-							</div>
+	
 						</a>
 					))}
 				</div>
