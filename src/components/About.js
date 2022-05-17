@@ -40,6 +40,7 @@ export default function About() {
 					<a href='https://www.linkedin.com/in/rizvi-hasan'>
 						<img src={linkedin} alt='linkedinpic' id='linkedinpic' />
 					</a>
+					<></>
 					<br></br><br></br>
 				</div>
 			</div>
