@@ -12,7 +12,7 @@ export const projects = [
 		subtitle: "Python 3.0, Django, PostgreSQL, Materialize, CSS, Django Template Language or DTL",
 		description:
 			"This App is a personal collection application which allows its user to add movies and actors of their choice and provide reviews for others to see. This app also allows users to like and post reviews on other users' favorite movies.",
-		image: "./movie-actor.jpeg",
+		image: "./movie-project.png",
 		link: "https://movie-actor.herokuapp.com/",
 	},
 	{

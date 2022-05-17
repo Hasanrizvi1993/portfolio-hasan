@@ -20,7 +20,6 @@ export default function About() {
 					<div className='personalImage'>
 						<img src={myImage} alt='myimage' id='personalImage' />
 					</div>
-					<hr></hr>
 					<br></br>
 					<h2>Technologies</h2>
 					<p>Javascript, Python, HTML/ CSS, SQL</p>
@@ -30,8 +29,7 @@ export default function About() {
 					<p>Node, Express, Django</p>
 
 					<p>NOSQL Databases, MongoDB, JSON, API usage</p>
-					<br></br><br></br>
-					<hr></hr>
+					<br></br>
 					<h3>PHONE</h3>
 					<p>(951)518-4719</p>
 					<h3>EMAIL</h3>
@@ -42,6 +40,7 @@ export default function About() {
 					<a href='https://www.linkedin.com/in/rizvi-hasan'>
 						<img src={linkedin} alt='linkedinpic' id='linkedinpic' />
 					</a>
+					<br></br><br></br>
 				</div>
 			</div>
 		</section>

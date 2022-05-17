@@ -1,20 +1,26 @@
+#about {
+	/* height: 100vh;
+    width: 100vw; */
+    /* display: flex; */
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    border-bottom: 10px solid #666066;
+    background-image: linear-gradient(to right top,#d16ba5,#c777b9,#ba83ca,#aa8fd8,#9a9ae1,#8aa7ec,#79b3f4,#69bff8,#52cffe,#41dfff,#a1e7ec,#5ffbf1);
+}
 .App {
-	background-color: black;
+	background-color: #8aa7ec;
 	color: white;
 	text-align: center;
 }
 
-#about {
-	border-color: azure;
-	border-radius: 30px;
-}
+
 
 #personalImage {
 	border-radius: 60%;
 	object-fit: contain;
 	width: 300px;
 	height: 300px;
-	margin-top: 5%;
+	/* margin-top: 5%; */
 	background-color: #231e23;
 	border: 5px solid #5eaec7;
 }
@@ -31,10 +37,10 @@
 	height: 500px;
 }
 
-.projectinfo {
+/* .projectinfo {
 	text-align: center;
 	font-style: italic;
-}
+} */
 
 #githubpic{
 	width: 5%;
@@ -45,4 +51,11 @@
 #linkedinpic{
 	width: 5%;
 	height: 5%;
+}
+
+.picturegallery {
+	border-radius: 45px;
+	padding: 20px;
+	width: 700px;
+	height: 600px;
 }
