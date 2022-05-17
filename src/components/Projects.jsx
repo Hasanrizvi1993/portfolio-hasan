@@ -23,13 +23,9 @@ export default function Projects() {
 									className='picturegallery'
 									src={project.image}
 								/>
-									<h1>{project.title}</h1>
-									<h4>{project.subtitle}</h4>
-									<p>{project.link}</p>
 									<br></br>
 									<br></br>
 									<br></br>
-									<hr></hr>
 								</div>
 	
 						</a>
