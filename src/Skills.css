@@ -1,6 +1,5 @@
 .skills-title {
 	background: linear-gradient(180deg,transparent 60%,#8dffaf 0);
-
     width: -webkit-max-content;
     width: max-content;
     margin: auto;
@@ -13,6 +12,9 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+    flex-direction: row;
+    margin: 20px;
+    align-content: center;
 }
 .skills-container {
 	margin: 2% auto 5%;
@@ -31,10 +33,7 @@
     text-align: left;
     margin-top: 0;
     margin-bottom: 1rem;
-
-}
-
-
-.technology {
     font-family: "Zen Kaku Gothic Antique",sans-serif;
+  
+
 }
