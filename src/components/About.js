@@ -21,15 +21,6 @@ export default function About() {
 						<img src={myImage} alt='myimage' id='personalImage' />
 					</div>
 					<br></br>
-					<h2>Technologies</h2>
-					<p>Javascript, Python, HTML/ CSS, SQL</p>
-
-					<p>React, MERN Stack, Bootstrap</p>
-
-					<p>Node, Express, Django</p>
-
-					<p>NOSQL Databases, MongoDB, JSON, API usage</p>
-					<br></br>
 					<h3>PHONE</h3>
 					<p>(951)518-4719</p>
 					<h3>EMAIL</h3>

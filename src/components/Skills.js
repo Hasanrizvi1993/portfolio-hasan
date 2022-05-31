@@ -1,5 +1,6 @@
 import React from 'react';
 import "../Skills.css";
+import MERN from "../../src/MERN-logo.png";
 
 export default function Skills() {
     return(
@@ -44,6 +45,14 @@ export default function Skills() {
                 <div className='stack-item'>
                     <p className='technology'>Express</p>
                     <img class="icon" src="https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg"alt=""></img>
+                </div>
+                <div className='stack-item'>
+                    <p className='technology'>MERN</p>
+                    <img style={{width: 110}} class="icon" src={MERN} alt=""></img>
+                </div>
+                <div className='stack-item'>
+                    <p className='technology'>EJS</p>
+                    <img class="icon" src="https://ejs.bootcss.com/assets/images/ejs-logo.png"alt=""></img>
                 </div>
             </div>   
             </div>
