@@ -8,33 +8,29 @@ import linkedin from "../../src/linkedin-logo-0.png";
 
 export default function About() {
 	return (
-		<section id='about'>
+		<section id='about-container'>
 			<div className='about-me-text'>
-				<div>
-					<h1>
+					<h1 className="name-header">
 						My name is Hasan Rizvi
 						<br />
 						Get to know me
 					</h1>
-					<p>I love to build amazing apps. Look at my amazing projects!</p>
-					<div className='personalImage'>
-						<img src={myImage} alt='myimage' id='personalImage' />
-					</div>
 					<br></br>
-					<h3>PHONE</h3>
-					<p>(951)518-4719</p>
-					<h3>EMAIL</h3>
-					<p>hasanrizvi1993@gmail.com</p>
+					<p className="get-to-know-me">I'm currently based near Los Angeles, CA. I am a Full Stack Software Developer, MBA graduate, and part of a music band.
+					I have been in a leadership role for the almost seven years at my current job and looking to transition into the tech field as a Software Developer.
+					I am trained in quantitative and qualitative research with the goal to generate sophisticated solutions.
+					Currently interning at Beige Corporation as a Software Engineer building mutiple web application based on customer segments.
+					I am motivated by the story that each of our creations can tell, whether that be writing an inspiration-struck short story or building a carefully cultivated website for any business needs.</p>
+					
 					<a href='https://github.com/Hasanrizvi1993/'>
 						<img src={githubpic} alt='githubpic' id='githubpic' />
 					</a>
 					<a href='https://www.linkedin.com/in/rizvi-hasan'>
 						<img src={linkedin} alt='linkedinpic' id='linkedinpic' />
 					</a>
-					<></>
-					<br></br><br></br>
-					<></>
-				</div>
+			</div>
+			<div className='personalImage'>
+						<img src={myImage} alt='myimage' id='personalImage' />
 			</div>
 		</section>
 	);

@@ -23,23 +23,13 @@
 	/* margin-top: 5%; */
 	background-color: #231e23;
 	border: 5px solid #5eaec7;
+
 }
 
-.carousel {
-	margin: auto;
-  	padding: 50px;
-  	color: #33475b;
-	font-size: xx-large;    
-}
 
-.picturegallery {
+/* .picturegallery {
 	width: 800px;
 	height: 500px;
-}
-
-/* .projectinfo {
-	text-align: center;
-	font-style: italic;
 } */
 
 #githubpic{
@@ -55,8 +45,93 @@
 
 .picturegallery {
 	border-radius: 45px;
-	padding: 20px;
 	width: 700px;
-	height: 600px;
+	object-fit: contain;
+    height: 100%;
+    border: 3px solid #fff;
 }
 
+.projects-title {
+	background: linear-gradient(180deg,transparent 60%,#8fe5ff 0);
+	font-size: 2rem;
+	width: fit-content;
+	margin: auto;
+	color: #bf1363;
+
+}
+
+#project-container {
+	border-radius: 20px;
+    box-shadow: 5px 7px 5px rgb(110 106 106 / 58%);
+	display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(139,135,135,.247);
+    margin: 20px auto;
+    width: 60vw;
+    padding: 30px;
+	background-color: #8aa7ec;
+}
+
+.project-name {
+	color: #bf1363;
+	font-family: fantasy;
+}
+
+.project-description {
+	color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#projects {
+	background-color: white;
+}
+
+
+#contact-container {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 95%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(54 53 53 / 32%);
+	color: #bf1363;
+	background-color: rgba(208,221,236,.6509803921568628);
+}
+
+#about-container {
+	margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	padding-top: 20px;
+
+}
+
+#githubpic{
+	width: 80px;
+	height: 80px;
+	border-radius: 40%;
+}
+
+#linkedinpic{
+	width: 80px;
+	height: 80px;
+}
+
+.get-to-know-me {
+	font-size: medium;
+	width: 900px;
+	font-family: "Zen Kaku Gothic Antique",sans-serif;
+}
+
+.name-header {
+	background: linear-gradient(180deg,transparent 80%,#e8ff8d 0);
+    background-size: 50%;
+	color: #bf1363;
+    font-family: "Zen Kaku Gothic Antique",sans-serif!important;
+	font-size: 2rem;
+	font-weight: 500;
+	width: fit-content;
+	margin: auto;
+}
