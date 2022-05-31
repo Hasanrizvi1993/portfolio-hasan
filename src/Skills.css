@@ -1,0 +1,40 @@
+.skills-title {
+	background: linear-gradient(180deg,transparent 60%,#8dffaf 0);
+
+    width: -webkit-max-content;
+    width: max-content;
+    margin: auto;
+	padding-top: 10px;
+	color: #bf1363;
+	font-family: "Zen Kaku Gothic Antique",sans-serif!important;
+}
+
+.stack-item, .stacks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.skills-container {
+	margin: 2% auto 5%;
+	width: 50%;
+	box-sizing: border-box;
+}
+
+.icon {
+	object-fit: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.technology{
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+}
+
+
+.technology {
+    font-family: "Zen Kaku Gothic Antique",sans-serif;
+}
