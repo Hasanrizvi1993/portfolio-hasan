@@ -6,7 +6,7 @@ export default function Projects() {
 		<section id='projects'>
 			<div>
 				<div>
-					<h1>Apps I've Built</h1>
+					<h1>Projects</h1>
 					<p>
 						I have built web apps using technologies including React, NodeJS,
 						Python, Django, Express, EJS, HTML, CSS, Materialize, Bootstrap,
