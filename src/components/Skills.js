@@ -6,6 +6,8 @@ export default function Skills() {
     return(
         <section id="skills">
             <div id='skills-title' className='skills-container'>
+                <hr></hr>
+                <br></br>
                 <h2 className="skills-title">Tools In My Belt</h2>
                 <br></br>
                 <br></br>
@@ -56,7 +58,6 @@ export default function Skills() {
                 </div>
             </div>   
             </div>
-            <hr></hr>
         </section>
     )
 }
