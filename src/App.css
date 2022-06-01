@@ -11,6 +11,8 @@
 	background-color: #8aa7ec;
 	color: white;
 	text-align: center;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 
@@ -23,8 +25,8 @@
 	/* margin-top: 5%; */
 	background-color: #231e23;
 	border: 5px solid #5eaec7;
-
 }
+
 
 
 /* .picturegallery {
@@ -45,7 +47,7 @@
 
 .picturegallery {
 	border-radius: 45px;
-	width: 700px;
+	width: 50%;
 	object-fit: contain;
     height: 100%;
     border: 3px solid #fff;
@@ -121,7 +123,8 @@
 
 .get-to-know-me {
 	font-size: medium;
-	width: 900px;
+	margin: 3%;
+	width: auto;
 	font-family: "Zen Kaku Gothic Antique",sans-serif;
 }
 
