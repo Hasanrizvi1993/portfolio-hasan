@@ -29,15 +29,7 @@ export const projects = [
 		description:
 			"This project uses an API to provide weather information. I build this app using reactjs, css, jsx. The user enter a city name and it provides them with the current temperature, min and max temperature, and feels like temperature",
 		image: "./weather.png",
-		link: "https://github.com/Hasanrizvi1993/weather-app",
-	},
-	{
-		title: "HDD-Med Supply",
-		subtitle: "Node, Express, MongoDB, Mongoose, ejs, Materialize",
-		description:
-			"This is an ecommerce website for medical supplies using Node, Express, MongoDB, Mongoose, ejs, Materialize",
-		image: "./hdd-med.jpeg",
-		link: "https://github.com/dgordanier/project_two",
+		link: "https://main--mellow-tarsier-cab13b.netlify.app/",
 	},
 	{
 		title: "Tamagotchi",
@@ -46,5 +38,13 @@ export const projects = [
 			"This is a Tamagotchi game which allows its users to make a pet, name the pet, and give the pet an age. The user will feed the pet, play with the pet, and keep the pet awake in order to avoid it from dying. The pet dies if any one those three metrics reaches 10. The user wins the game, if the game progress meter reaches 100% without the pet dying.",
 		image: "./tamagotchi.png",
 		link: "https://powerful-spire-65443.herokuapp.com/",
+	},
+	{
+		title: "Calculator App",
+		subtitle: "Javascript, HTML, CSS",
+		description:
+			"This application uses Javascript, HTML, CSS to emeulate a calculator. The user can perform addition, subtraction, divide, mutiply.",
+		image: "./tamagotchi.png",
+		link: "https://charming-maamoul-9fc993.netlify.app/",
 	},
 ];
