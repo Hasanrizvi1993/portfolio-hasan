@@ -1,7 +1,8 @@
 export const projects = [
 	{
 		title: "MyBnb",
-		subtitle: "Python 3.0, Django, PostgreSQL, Bootstrap, CSS, Django Template Language or DTL",
+		subtitle:
+			"Python 3.0, Django, PostgreSQL, Bootstrap, CSS, Django Template Language or DTL",
 		description:
 			"Mybnb is an online marketplace that connects people who want to rent out their homes and cars. This application combines and brings a home rental and a car rental into a single platform. It allows people who are looking for accommodations & wanting to rent automobiles in specific locales. Customer can also use this site and use the search function to locate car or homes or both in the city they plan to visit.",
 		image: "./mybnb1.png",
@@ -9,7 +10,8 @@ export const projects = [
 	},
 	{
 		title: "Movie-Actor",
-		subtitle: "Python 3.0, Django, PostgreSQL, Materialize, CSS, Django Template Language or DTL",
+		subtitle:
+			"Python 3.0, Django, PostgreSQL, Materialize, CSS, Django Template Language or DTL",
 		description:
 			"This App is a personal collection application which allows its user to add movies and actors of their choice and provide reviews for others to see. This app also allows users to like and post reviews on other users' favorite movies.",
 		image: "./movie-project.png",
@@ -44,7 +46,7 @@ export const projects = [
 		subtitle: "Javascript, HTML, CSS",
 		description:
 			"This application uses Javascript, HTML, CSS to emeulate a calculator. The user can perform addition, subtraction, divide, mutiply.",
-		image: "./tamagotchi.png",
+		image: "./calculator.png",
 		link: "https://charming-maamoul-9fc993.netlify.app/",
 	},
 ];
