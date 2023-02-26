@@ -31,7 +31,7 @@ export const projects = [
 		description:
 			"This is a Tamagotchi game which allows its users to make a pet, name the pet, and give the pet an age. The user will feed the pet, play with the pet, and keep the pet awake in order to avoid it from dying. The pet dies if any one those three metrics reaches 10. The user wins the game, if the game progress meter reaches 100% without the pet dying.",
 		image: "./tamagotchi.png",
-		link: "https://powerful-spire-65443.herokuapp.com/",
+		link: "https://lucid-roentgen-5eef8d.netlify.app/",
 	},
 	{
 		title: "Calculator App",
